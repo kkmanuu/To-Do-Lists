@@ -16,7 +16,7 @@
   - [:pray: Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)
   - [:memo: License ](#-license-a-namelicensea)
   
-   # :List: To Do List <a name="about-project"></a>
+   # :book: To Do List <a name="about-project"></a>
   - This website shows a sneak peek of what I have done, projects developed , and what I can do to your projects! Developed with   HTML, CSS, and JavaScript
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
