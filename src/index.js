@@ -1,4 +1,4 @@
-import './style.css';
+require('./style.css');
 
 const tasks = [
   {
