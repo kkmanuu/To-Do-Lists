@@ -1,0 +1,17 @@
+{
+  "name": "to-do-lists",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>\r # :green_book: Table of Contents\r - [:List: To Do List](#-Awesome-a-nameabout-projecta)\r   - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)\r     - [Tech Stack ](#tech-stack-a-nametech-stacka)\r     - [Key Features ](#key-features-a-namekey-featuresa)\r   - [:computer: Getting Started ](#-getting-started-a-namegetting-starteda)\r     - [Prerequisites](#prerequisites)\r     - [Setup](#setup)\r     - [Install](#install)\r     - [Usage](#usage)\r   - [:busts_in_silhouette: Authors ](#-authors-a-nameauthorsa)\r   - [:telescope: Future Features ](#-future-features-a-namefuture-featuresa)\r   - [:star:️ Show your support ](#️-show-your-support-a-namesupporta)\r   - [:handshake: Contributing ](#-contributing-a-namecontributinga)\r   - [:pray: Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)\r   - [:memo: License ](#-license-a-namelicensea)",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^7.1.9"
+  }
+}
