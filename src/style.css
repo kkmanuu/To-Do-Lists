@@ -4,7 +4,7 @@
 
 .to-do-container {
   width: 45%;
-  margin: 12% 27.5%;
+  margin: 10% 27.5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -30,12 +30,22 @@ form {
   margin-left: 40px;
 }
 
+.input-task:focus {
+  outline: none;
+}
+
 .add {
   width: 10%;
   height: 35px;
   margin-top: 20px;
   background-color: white;
   border: 1px solid gray;
+}
+
+.add:active {
+  background-color: rgb(155, 249, 13);
+  border-color: rgb(155, 249, 13);
+  font-weight: bold;
 }
 
 .clearButton {
@@ -52,13 +62,29 @@ form {
   opacity: 0.8;
 }
 
-li {
+.each-task {
   list-style-type: none;
+  border: none;
   display: flex;
+  padding-right: 30px;
 }
 
 .task-to-be-done {
-  margin-left: 25px;
-  font-size: 16px;
+  display: flex;
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 18px;
   font-family: 'Courier New', Courier, monospace;
+  border: 0;
+}
+
+.bin {
+  src: url('dot.jpeg.jpeg.jpeg');
+  height: 22px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.task-to-be-done:focus {
+  outline: none;
 }
