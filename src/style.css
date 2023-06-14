@@ -79,7 +79,7 @@ form {
 }
 
 .bin {
-  src: url('dot.jpeg.jpeg.jpeg');
+  src: url('./images/dots.png');
   height: 22px;
   cursor: pointer;
   margin-top: 10px;
