@@ -23,9 +23,8 @@ class Tasks {
       taskItem.classList.add('each-task');
       taskItem.id = index;
       taskItem.innerHTML = `
-      <input type="checkbox" id="task-${task.index}" name="task-${task.index}" ${task.completed ? 'checked' : 'unchecked'}>
-      <p contenteditable="true" class="task-to-be-done">${task.description}</p>
-      <img src="${bin}" alt="" class="bin">
+        <input type="checkbox" id="task-${task.index}" name="task-${task.index}" ${task.completed ? 'checked' : ''}>
+        <p contenteditable="true" class="task-to-be-done">${task.description}</p>
       `;
       container.appendChild(taskItem);
     });

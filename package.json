@@ -12,6 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "hint": "^7.1.9"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.9",
+    "html-webpack-plugin": "^5.5.3"
   }
 }
