@@ -80,9 +80,9 @@ form {
 
 .bin {
   src: url('./images/dots.png');
-  height: 22px;
+  height: 3px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 9px;
 }
 
 .task-to-be-done:focus {
