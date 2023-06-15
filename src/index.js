@@ -1,7 +1,11 @@
-import add from './add.js';
-import { save, retrieve } from './storage.js';
-import { clearChecked, container } from './taskClass.js';
-import taskRemaining from './taskFunctions.js';
+// eslint-disable-next-line import/named
+import './style.css';
+import add from './modules/add.js';
+import taskRemaining from './modules/taskFunctions.js';
+import {
+  addButton, taskInput, container, clearChecked,
+} from './modules/taskClass.js';
+import { save, retrieve } from './modules/storage.js';
 
 // Add event listener to the checkbox
 container.addEventListener('change', (event) => {
