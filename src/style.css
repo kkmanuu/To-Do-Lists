@@ -3,14 +3,14 @@
 }
 
 .to-do-container {
-  width: 46%;
-  margin: 10% 27.5%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30%;
+  margin: 10% 35%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 18px 0 rgba(0, 0, 0, 0.19);
 }
 
 .title-and-refresh {
   display: flex;
-  margin-left: 42px;
+  margin-left: 40px;
 }
 
 .input_and_add {
