@@ -26,9 +26,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
  ### Key Features <a name="key-features"></a>
-- **ES6 modules to write modular JavaScript**
-- **webpack to bundle JavaScript**
-- **ES6 syntax**
+- *ES6 modules to write modular JavaScript*
+- *webpack to bundle JavaScript*
+- *ES6 syntax*
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :computer: Getting Started <a name="getting-started"></a>
@@ -44,16 +44,16 @@ In order to run this project you need the following:
 
 ### Setup
 Clone this repository to your desired folder or download the Zip folder:
-```
+
 git clone https://github.com/kkmanuu/To-Do-Lists
-```
+
 - Navigate to the location of the folder in your machine
 
 ### Install
 To install all dependencies, run:
-```
+
 npm install
-```
+
 
 ### Usage
 To run the project, follow these instructions:
@@ -63,17 +63,17 @@ To run the project, follow these instructions:
 ### Run tests
 To run tests, run the following command:
 - Track HTML linter errors run:
-```
+
 npx hint .
-```
+
 - Track CSS linter errors run:
-```
+
 npx stylelint "**/*.{css,scss}"
-```
+
 - Track JavaScript linter errors run:
-```
+
 npx eslint .
-```
+
 
 ### Usage
 To run the project, follow these instructions:
@@ -83,17 +83,17 @@ To run the project, follow these instructions:
 ### Run tests
 To run tests, run the following command:
 - Track HTML linter errors run:
-```
+
 npx hint .
-```
+
 - Track CSS linter errors run:
-```
+
 npx stylelint "**/*.{css,scss}"
-```
+
 - Track JavaScript linter errors run:
-```
+
 npx eslint .
-```
+
 
 ### Deployment <a name="deployment"></a>
 - Deployed with github pages
@@ -101,7 +101,7 @@ npx eslint .
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :busts_in_silhouette: Authors <a name="authors"></a>
-:bust_in_silhouette: **Emmanuel Kipngeno**
+:bust_in_silhouette: *Emmanuel Kipngeno*
 - GitHub: [@githubhandle](https://github.com/kkmanuu)
 - Twitter: [@twitterhandle](https://twitter.com/kkmanuu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
@@ -109,9 +109,9 @@ npx eslint .
 
 ## :telescope: Future Features <a name="future-features"></a>
 
-- **ES6 modules to write modular JavaScript**
-- **webpack to bundle JavaScript**
-- **ES6 syntax**
+- *ES6 modules to write modular JavaScript*
+- *webpack to bundle JavaScript*
+- *ES6 syntax*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
