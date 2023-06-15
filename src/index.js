@@ -3,7 +3,7 @@ import './style.css';
 import add from './modules/add.js';
 import taskRemaining from './modules/taskFunctions.js';
 import {
-  addButton, taskInput, container, clearChecked,
+  addButton, container, clearChecked,
 } from './modules/taskClass.js';
 import { save, retrieve } from './modules/storage.js';
 
@@ -12,19 +12,19 @@ container.addEventListener('change', (event) => {
   const taskId = event.target.id.split('-')[1];
   const task = taskRemaining.tasks[taskId - 1];
   task.completed = event.target.checked;
-  save(); 
+  save();
 });
 
 // Implement the "Clear all completed" button functionality
 clearChecked.addEventListener('click', () => {
   taskRemaining.deleteCompleted();
-  save(); 
+  save();
 });
 
 // Load tasks from local storage on page load
 window.addEventListener('DOMContentLoaded', () => {
-  retrieve(); 
-  taskRemaining.display(); 
+  retrieve();
+  taskRemaining.display();
 });
 
 // Add event listener to the "Add" button
@@ -32,6 +32,6 @@ addButton.addEventListener('click', (event) => {
   event.preventDefault();
   const task = add(event);
   taskRemaining.add(task);
-  taskRemaining.display(); 
-  save(); 
+  taskRemaining.display();
+  save();
 });
