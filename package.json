@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/kkmanuu/To-Do-Lists/issues"
   },
-  "homepage": "https://kkmanuu.github.io/To-Do-Lists/dist/",
+  "homepage": "dist/",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "babel-eslint": "^10.1.0",
