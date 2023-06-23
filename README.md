@@ -1,12 +1,9 @@
-![image] (C:\Users\USER\Pictures\Screenshots\Screenshot (23).png.png)
-
 <a name="readme-top"></a>
 # :green_book: Table of Contents
 - [:List: To Do List](#-Awesome-a-nameabout-projecta)
   - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)
     - [Tech Stack ](#tech-stack-a-nametech-stacka)
     - [Key Features ](#key-features-a-namekey-featuresa)
-    - [:rocket:] Live Demo
   - [:computer: Getting Started ](#-getting-started-a-namegetting-starteda)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -29,9 +26,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Key Features <a name="key-features"></a>
-- ES6 modules to write modular JavaScript
-- webpack to bundle JavaScript
-- ES6 syntax
+- *ES6 modules to write modular JavaScript*
+- *webpack to bundle JavaScript*
+- *ES6 syntax*
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 :rocket: Live Demo
@@ -75,7 +72,7 @@ npx hint .
 
 - Track CSS linter errors run:
 
-npx stylelint "*/.{css,scss}"
+npx stylelint "**/*.{css,scss}"
 
 - Track JavaScript linter errors run:
 
@@ -95,7 +92,7 @@ npx hint .
 
 - Track CSS linter errors run:
 
-npx stylelint "*/.{css,scss}"
+npx stylelint "**/*.{css,scss}"
 
 - Track JavaScript linter errors run:
 
@@ -108,7 +105,7 @@ npx eslint .
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :busts_in_silhouette: Authors <a name="authors"></a>
-:bust_in_silhouette: Emmanuel Kipngeno
+:bust_in_silhouette: *Emmanuel Kipngeno*
 - GitHub: [@githubhandle](https://github.com/kkmanuu)
 - Twitter: [@twitterhandle](https://twitter.com/kkmanuu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
@@ -116,9 +113,9 @@ npx eslint .
 
 ## :telescope: Future Features <a name="future-features"></a>
 
-- ES6 modules to write modular JavaScript
-- webpack to bundle JavaScript
-- ES6 syntax
+- *ES6 modules to write modular JavaScript*
+- *webpack to bundle JavaScript*
+- *ES6 syntax*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
