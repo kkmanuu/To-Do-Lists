@@ -8,9 +8,17 @@
     "start": "webpack serve --open",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkmanuu/To-Do-Lists"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkmanuu/To-Do-Lists/issues"
+  },
+  "homepage": "dist/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
