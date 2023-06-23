@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/kkmanuu/To-Do-Lists/issues"
   },
-  "homepage": "dist/",
+  "homepage": "https://kkmanuu.github.io/To-Do-Lists#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
