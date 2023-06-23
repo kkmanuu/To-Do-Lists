@@ -1,4 +1,5 @@
 import { container } from './taskClass.js';
+import bin from '../images/bin.png';
 
 class Tasks {
   constructor() {
@@ -25,12 +26,13 @@ class Tasks {
       taskItem.innerHTML = `
       <input type="checkbox" id="task-${task.index}" name="task-${task.index}" ${task.completed ? 'checked' : 'unchecked'}>
       <p contenteditable="true" class="task-to-be-done">${task.description}</p>
+      <img src="${bin}" alt="" class="bin">
       `;
       container.appendChild(taskItem);
     });
   };
 
-  deleteCompleted = () => {
+  deleteListItemCompleted = () => {
     this.tasks = this.tasks.filter((task) => task.completed === false);
     container.innerHTML = '';
   };
@@ -41,10 +43,12 @@ class Tasks {
     });
   };
 
-  delete = (index) => {
+  deleteListItem = (index) => {
     this.tasks = this.tasks.filter((task) => task.index !== Number(index) + 1);
   };
 }
 
-const taskRemaining = new Tasks();
-export default taskRemaining;
+export const taskRemaining = new Tasks();
+// export taskRemaining;
+
+export const { add } = new Tasks();

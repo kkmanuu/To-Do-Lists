@@ -3,7 +3,7 @@
 }
 
 .to-do-container {
-  width: 46%;
+  width: 45%;
   margin: 10% 27.5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -25,7 +25,7 @@ form {
 
 .input-task {
   width: 75%;
-  padding: 9px;
+  padding: 10px;
   margin: 20px 0;
   margin-left: 40px;
 }
@@ -80,9 +80,9 @@ form {
 
 .bin {
   src: url('./images/dots.png');
-  height: 3px;
+  height: 22px;
   cursor: pointer;
-  margin-top: 9px;
+  margin-top: 10px;
 }
 
 .task-to-be-done:focus {
