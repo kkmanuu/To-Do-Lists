@@ -64,10 +64,10 @@ container.addEventListener('change', (e) => {
   }
 });
 
-window.addEventListener('load', () => {
-  retrieve();
-  taskRemaining.display();
-});
+// window.addEventListener('load', () => {
+//   retrieve();
+//   taskRemaining.display();
+// });
 
 clearChecked.addEventListener('click', () => {
   taskRemaining.deleteListItemCompleted();
