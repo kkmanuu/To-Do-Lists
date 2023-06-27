@@ -10,7 +10,7 @@
 
 .title-and-refresh {
   display: flex;
-  margin-left: 40px;
+  margin-left: 39px;
 }
 
 .input_and_add {
@@ -24,7 +24,7 @@ form {
 }
 
 .input-task {
-  width: 75%;
+  width: 77%;
   padding: 10px;
   margin: 20px 0;
   margin-left: 40px;
