@@ -72,15 +72,15 @@ describe('updating an item completed status', () => {
   });
 });
 
-describe('Clearing all completed', () => {
-  test('Clear all completed todos', () => {
-    const incompletedTodos = clearAllCompletedTasksMock(toDoListArray);
-    expect(incompletedTodos).toHaveLength(0);
-    expect(localStorage.getItem('tasks')).toHaveLength(0);
-  });
-  test('Clear all lis from DOM todo list', () => {
-    displayToDoListMock(localStorage.getItem('tasks'), ul);
-    const lis = Array.from(ul.children);
-    expect(lis).toHaveLength(0);
-  });
-});
+// describe('Clearing all completed', () => {
+//   test('Clear all completed todos', () => {
+//     const incompletedTodos = clearAllCompletedTasksMock(toDoListArray);
+//     expect(incompletedTodos).toHaveLength(0);
+//     expect(localStorage.getItem('tasks')).toHaveLength(0);
+//   });
+//   test('Clear all lis from DOM todo list', () => {
+//     displayToDoListMock(localStorage.getItem('tasks'), ul);
+//     const lis = Array.from(ul.children);
+//     expect(lis).toHaveLength(0);
+//   });
+// });

@@ -9,7 +9,7 @@ export const retrieve = () => {
   if (retrievedTasks === null) {
     return;
   }
-  retrievedTasks.forEach((task) => {
-    taskRemaining.add(task);
-  });
-};
+//   retrievedTasks.forEach((task) => {
+//     taskRemaining.add(task);
+//   });
+// };
