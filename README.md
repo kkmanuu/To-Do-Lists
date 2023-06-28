@@ -15,7 +15,7 @@
   - [:handshake: Contributing ](#-contributing-a-namecontributinga)
   - [:pray: Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)
   - [:memo: License ](#-license-a-namelicensea)
-  
+
    # :book: To Do List <a name="about-project"></a>
   - This website shows a sneak peek of what I have done, projects developed , and what I can do to your projects! Developed with   HTML, CSS, and JavaScript
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
@@ -24,12 +24,16 @@
 - CSS
 - JAVASCRIPT
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
+
  ### Key Features <a name="key-features"></a>
 - *ES6 modules to write modular JavaScript*
 - *webpack to bundle JavaScript*
 - *ES6 syntax*
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+:rocket: Live Demo
+
+[Click here](https://kkmanuu.github.io/To-Do-Lists/dist/)
 
 ## :computer: Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
@@ -105,6 +109,11 @@ npx eslint .
 - GitHub: [@githubhandle](https://github.com/kkmanuu)
 - Twitter: [@twitterhandle](https://twitter.com/kkmanuu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
+
+:bust_in_silhouette: *Malik Haider Khan*
+- GitHub: [@malikhaiderkhan](https://github.com/malikhaiderkhan)
+- Twitter: [@malikhaiderkha](https://twitter.com/malikhaiderkha)
+- LinkedIn: [@malikhaiderkhan](https://www.linkedin.com/in/malik-haider-khan-b53188140)
 
 
 ## :telescope: Future Features <a name="future-features"></a>

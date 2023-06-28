@@ -2,26 +2,48 @@
   "name": "to-do-lists",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>\r # :green_book: Table of Contents\r - [:List: To Do List](#-Awesome-a-nameabout-projecta)\r   - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)\r     - [Tech Stack ](#tech-stack-a-nametech-stacka)\r     - [Key Features ](#key-features-a-namekey-featuresa)\r   - [:computer: Getting Started ](#-getting-started-a-namegetting-starteda)\r     - [Prerequisites](#prerequisites)\r     - [Setup](#setup)\r     - [Install](#install)\r     - [Usage](#usage)\r   - [:busts_in_silhouette: Authors ](#-authors-a-nameauthorsa)\r   - [:telescope: Future Features ](#-future-features-a-namefuture-featuresa)\r   - [:star:️ Show your support ](#️-show-your-support-a-namesupporta)\r   - [:handshake: Contributing ](#-contributing-a-namecontributinga)\r   - [:pray: Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)\r   - [:memo: License ](#-license-a-namelicensea)",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "dev": "webpack --mode development",
     "start": "webpack serve --open",
     "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkmanuu/To-Do-Lists"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkmanuu/To-Do-Lists/issues"
+  },
+  "homepage": "dist/",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "babel-eslint": "^10.1.0",
-    "css-loader": "^6.8.1",
+    "css-loader": "^6.7.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
-    "hint": "^7.1.9",
+    "hint": "^7.1.3",
+    "html": "^1.0.0",
     "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.5.3",
-    "style-loader": "^3.3.3",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.4.1",
+    "loader": "^2.1.1",
+    "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
