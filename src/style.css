@@ -82,7 +82,7 @@ form {
   src: url('./images/dots.png');
   height: 22px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 13px;
 }
 
 .task-to-be-done:focus {
